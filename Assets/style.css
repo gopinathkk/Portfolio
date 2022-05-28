@@ -1,0 +1,188 @@
+:root {
+    --font: #BDCFCB;
+    --font2: #07151d;
+    --title: #AFC4C3;
+    --head: #2A3642;
+    --subhead: #6589B0;
+    --blue: #216A91;
+    --link2: #061929;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: var(--font);
+    margin: 0px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background: var(--head);
+    padding: 10px;
+}
+
+.contenttext::first-letter {
+    font-weight: bolder;
+    color: var(--blue);
+}
+
+.mainimage {
+
+    width: 100%;
+    height: 200px;
+
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    list-style-type: none;
+    width: 35em;
+}
+
+nav ul a {
+    color: var(--font);
+    text-decoration: underline;
+
+}
+
+.links {
+    color: var(--link2);
+}
+
+a:hover {
+    text-shadow: 0px 7px 2px var(--blue);
+}
+
+h1 {
+    color: var(--title);
+    padding: 5px;
+}
+
+h1:hover {
+    text-shadow: 0px 7px 3px var(--blue);
+
+}
+
+.box {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: first baseline;
+}
+
+.contentArea {
+    display: flex;
+    flex-direction: column;
+}
+
+.aboutsection {
+    width: 95%;
+    padding: 10px;
+    transition: 1s;
+    color: var(--head);
+    margin: 10px;
+}
+
+.grid {
+    width: 90%;
+    display: grid;
+    grid-template-columns: 20% 80%;
+    grid-gap: 40px;
+    padding: 5px;
+
+
+}
+
+.sectiontitle {
+
+    border-right: solid 2px var(--blue);
+}
+
+.aboutcontent {
+    opacity: 1;
+    font-size: 15px;
+    line-height: 20px;
+    padding: 5px;
+    width: 90%;
+}
+
+.titletext {
+    font-size: 30px;
+    color: var(--font2);
+}
+
+.contenttext {
+
+    color: var(--font2);
+}
+
+.worksection {
+
+    width: 100%;
+    padding: 10px;
+    transition: 1s;
+    color: var(--head);
+    margin: 10px;
+}
+
+.columnwork {
+    float: left;
+    width: 50%;
+
+}
+
+@media screen and (max-width:1000px) {
+    .columnwork {
+        width: 100%
+    }
+
+}
+
+.jobcard {
+    position: relative;
+    color: var(--head);
+    background-color: var(--font);
+    text-align: center;
+    box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.9);
+    margin: 10px;
+}
+
+.jobcard:hover {
+    box-shadow: 5px 3px 18px 10px var(--blue);
+}
+
+.jobname {
+    position: absolute;
+    text-align: center;
+    background-color: var(--subhead);
+    padding: 0px 10px;
+
+
+
+}
+
+.jobcard img {
+    width: 100%;
+
+
+}
+
+.mainskills {
+    position: absolute;
+    background-color: var(--subhead);
+    z-index: 1;
+    padding: 0px 10px;
+
+}
