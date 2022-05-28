@@ -92,10 +92,25 @@ function divideBtn(div) {
     operator = div;
   }
 }
+
+function mAddition(){
+  memor1=document.getElementById("screenText").value + memor1
+  document.getElementById("screenText").value= memor1
+}
+function mSubstract(){
+  memor1= memor1 - document.getElementById("screenText").value
+  document.getElementById("screenText").value= memor1
+}
+
+function mReset(){
+  memor1=""
+}
+
 let val1 = "";
 let val2 = "";
 let operator = "";
 let result = "";
+let memor1="";
 
 function mAddition(div) {
   document.getElementById("sideText").value = div;
