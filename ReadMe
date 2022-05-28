@@ -1,0 +1,12 @@
+Welcome to week 2 challnge - Portfolio page:
+Used all the skills learned in past two weeks to create this portfolio with HTML and CSS, incluiding flexbox, psuedo, adv CSS selectors, responsive designs etc.
+Included all critical requirments mentioned in the challenge.
+-  portfolio presented with my name, a recent photo , and links to sections about me, my work, contact details.
+-  click the links in the navigation then the UI scrolls to the corresponding section
+-  I included my first application that I made : a Calculator. 
+      Added its link to larger image, when clicked on it the calculator webpage will open. 
+      Please click  back button to go back to portfolio.
+- Included responsive layout that adapts to my viewport.
+- Added Pseudo elecmts and class to enhance the UX
+
+thanks
