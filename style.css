@@ -31,6 +31,7 @@ header {
 .contenttext::first-letter {
     font-weight: bolder;
     color: var(--blue);
+    font-size: larger;
 }
 
 .mainimage {
@@ -69,7 +70,6 @@ h1 {
 
 h1:hover {
     text-shadow: 0px 7px 3px var(--blue);
-
 }
 
 .box {
@@ -168,10 +168,8 @@ h1:hover {
     text-align: center;
     background-color: var(--subhead);
     padding: 0px 10px;
-
-
-
 }
+
 
 .jobcard img {
     width: 100%;
@@ -184,5 +182,4 @@ h1:hover {
     background-color: var(--subhead);
     z-index: 1;
     padding: 0px 10px;
-
 }
