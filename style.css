@@ -28,6 +28,18 @@ header {
     padding: 10px;
 }
 
+.avatar {
+    position: relative;
+}
+
+.avatartext {
+    position: absolute;
+    top: 160px;
+    right: 8px;
+    color: var(--title);
+    font-size: 25px;
+}
+
 .contenttext::first-letter {
     font-weight: bolder;
     color: var(--blue);
